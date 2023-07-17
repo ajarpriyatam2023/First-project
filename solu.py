@@ -5,11 +5,15 @@ print(len(inp))
 
 
 
+
+
+
+
 # 2nd Question
 
 
 inp = input("Enter something : ")
-dict = {}
+dict= {}
 for i in inp:
     if i in dict:
         dict[i]+=1
